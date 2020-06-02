@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.128
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuth.Server", "BlazorAuth\Server\BlazorAuth.Server.csproj", "{B6F18ABE-2C56-41D3-8CC1-0EDFFD28CBC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuth.Client", "BlazorAuth\Client\BlazorAuth.Client.csproj", "{5823FD14-7F74-4E9A-8C6F-0B481EF25808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuth.Shared", "BlazorAuth\Shared\BlazorAuth.Shared.csproj", "{D79D2CD0-A28C-4517-8F76-B706A32F9CAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{496F1D3C-8E16-41C9-83BF-98D776C19271}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6F18ABE-2C56-41D3-8CC1-0EDFFD28CBC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F18ABE-2C56-41D3-8CC1-0EDFFD28CBC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F18ABE-2C56-41D3-8CC1-0EDFFD28CBC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F18ABE-2C56-41D3-8CC1-0EDFFD28CBC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5823FD14-7F74-4E9A-8C6F-0B481EF25808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5823FD14-7F74-4E9A-8C6F-0B481EF25808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5823FD14-7F74-4E9A-8C6F-0B481EF25808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5823FD14-7F74-4E9A-8C6F-0B481EF25808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D79D2CD0-A28C-4517-8F76-B706A32F9CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79D2CD0-A28C-4517-8F76-B706A32F9CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79D2CD0-A28C-4517-8F76-B706A32F9CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79D2CD0-A28C-4517-8F76-B706A32F9CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6726232-7DFA-41DD-A95D-532C6098805D}
+	EndGlobalSection
+EndGlobal
